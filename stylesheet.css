@@ -1,0 +1,122 @@
+body {
+ background-image: url("background.jpg");
+ background-color: #cccccc;
+ font-family:arial ;
+}
+
+div.container {
+  color: white;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+div.header {
+  text-align: left;
+  font-size:60px;
+  height: 10%;
+  padding-bottom: 5%;
+  text-shadow: 3px 3px black;
+}
+div.main-1 {
+  float: left;
+  height: 40%;
+  width: 100%;
+  margin-left: 15px;
+  margin-right:30px;
+  padding-bottom: 3%;
+}
+div.main-1.portfolio {
+  width: 20%;
+}
+div.main-1.text {
+  width: 33%;
+  font-weight: bold;
+  text-shadow: 3px 3px black;
+}
+div.main-1.headshot {
+  width: 33%;
+
+}
+div.main-1.headshot img {
+  width: 90%;
+  padding-left: 10%;
+  padding-top: 20px;
+
+}
+div.main-2 {
+  float: left;
+  height: 40%;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 5%;
+  color: black;
+  font-weight: bold;
+  opacity: 0.9;
+}
+div.main-2.education {
+  width: 33%;
+  background-color: white;
+}
+div.main-2.job {
+  width: 33%;
+  background-color: white;
+}
+div.main-2.hobbies {
+  width:20%;
+  font-weight: bold;
+  background-color: white;
+}
+div.footer {
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  text-align: center;
+  background-color: GRAY;
+}
+table {
+  text-align: center;
+  width: 100%;
+}
+th {
+  font-size: 30px;
+  color:black;
+  height: 40px;
+}
+tr:nth-child(even) {
+  background-color: GRAY;
+  font-size: 20px;
+  height: 40px;
+}
+tr:nth-child(odd) {
+  background-color: lightgray;
+  font-size: 20px;
+}
+caption {
+  font-size: 25px;
+  text-shadow: 1px 1px black;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: blue;
+}
+span {
+  color: red;
+  font-weight: bold;
+}
+#p-text {
+  position: relative;
+  font-size: 73px;
+}
+#head-text {
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
